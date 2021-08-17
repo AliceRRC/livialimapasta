@@ -17,12 +17,16 @@ body {
   padding-right: 30px;
 }
 
-.navbar .navbart-links {
-  justify-content: space-between;
-  padding: 20px;
+.navbar-listinline-links {
+  list-style: none;
+  padding: 0;
   text-decoration: none;
 }
 
+.navbar-listinline-links li {
+  display: inline-block;
+  text-decoration: none;
+}
 
 .navbar .navbar-brand img {
   width: 200px;
