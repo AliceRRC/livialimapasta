@@ -15,17 +15,22 @@ body {
   background-color: white;
   justify-content: space-between;
   padding-right: 30px;
+  align-items: baseline;
 }
 
-.navbar-listinline-links {
+.navbar-listinline {
   list-style: none;
   padding: 0;
-  text-decoration: none;
 }
 
-.navbar-listinline-links li {
+.navbar-listinline li {
   display: inline-block;
+}
+
+.navbar-listinline a {
   text-decoration: none;
+  color: black;
+  padding-left: 30px;
 }
 
 .navbar .navbar-brand img {
