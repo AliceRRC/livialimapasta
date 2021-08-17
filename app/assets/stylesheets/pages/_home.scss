@@ -5,18 +5,32 @@ body {
 
 .banner {
   background-image: url('./spaghetti.jpg');
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
+  background-position: 50% 60%;
+  background-repeat: no-repeat;
   height: 500px;
 }
 
 .navbar {
   background-color: white;
   justify-content: space-between;
+  padding-right: 30px;
 }
+
+.navbar .navbart-links {
+  justify-content: space-between;
+  padding: 20px;
+  text-decoration: none;
+}
+
 
 .navbar .navbar-brand img {
   width: 200px;
   height: 40px;
   margin-left: 30px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
 }

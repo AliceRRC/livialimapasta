@@ -1,15 +1,23 @@
-<div class=navbar>
+<div class="navbar">
 <%= link_to "#", class: "navbar-brand" do %>
     <%= image_tag "livialima_logo.png" %>
-  <% end %>
+    <% end %>
+<div class="navbar-links">
+<%= link_to "Quem Somos", about_path %>
+<%= link_to "Cardápio", meal_path %>
+<%= link_to "Delivery", order_path %>
+<%= link_to "Galeria de Fotos", galery_path %>
+<%= link_to "Contato", contact_path %>
+</div>
 </div>
 <div class="banner">
 </div>
-<div class="container">
+<div class="container title">
+  <h1>História da Massa</h1>
   <div class="row justify-content-center mt-3">
 
     <div class="col-6 col-lg-3">
-      <h1>First page</h1>
+
     </div>
 
   </div>
