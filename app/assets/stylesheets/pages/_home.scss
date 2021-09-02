@@ -1,15 +1,20 @@
 // Specific CSS for your home-page
 body {
   background-color: #fcf2o;
+  font-family: 'Raleway', sans-serif;
+  font-weight: medium;
 }
 
-
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: medium;
+}
 
 .banner {
-  background-image: url('./spaghetti.jpg');
-  object-fit: cover;
-  background-position: 50% 60%;
-  background-repeat: no-repeat;
+ text-align: center;
+}
+
+.banner img {
   height: 500px;
 }
 
@@ -48,4 +53,16 @@ body {
   margin-top: 20px;
   font-family: 'Raleway', sans-serif;
   font-weight: medium;
+}
+
+.sr-only {
+  color: black;
+}
+
+.carousel-control-next-icon {
+  color: black;
+}
+
+.carousel-control-next {
+  color: black;
 }
